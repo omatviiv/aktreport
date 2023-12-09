@@ -1,0 +1,5 @@
+node_modules
+data.yml
+*.sw?
+.DS_Store
+config
