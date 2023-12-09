@@ -20,6 +20,9 @@ export const readAktconfig = async () => {
       if (!aktconfig.contractor) {
         throw new Error('aktconfig.yml doesn\'t contain: contractor');
       }
+      if (!aktconfig.contract) {
+        throw new Error('aktconfig.yml doesn\'t contain: contract');
+      }
 
       return aktconfig;
     }
