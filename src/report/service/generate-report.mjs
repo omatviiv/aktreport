@@ -66,7 +66,6 @@ export const generateReport = (data, aktconfig) => {
         })
         .font(font)
         .text('з іншої сторони, разом іменовані Сторони і окремо – Сторона, склали даний Акт приймання-передачі наданих послуг (надалі - Акт) про наступне.')
-        .moveDown()
         .text(`1. Сторони по даному Акту підтверджують, що станом на ${
           cDay
         } ${
@@ -79,7 +78,6 @@ export const generateReport = (data, aktconfig) => {
         .text(tasksList, {
           indent: 20,
         })
-        .moveDown()
         .text('2. Загальна вартість винагороди Виконавця складає ', {
           continued: true,
         })
